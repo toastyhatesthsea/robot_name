@@ -1,15 +1,3 @@
-/*
-
-Since this exercise has a difficulty of > 4 it doesn't come
-with any starter implementation.
-This is so that you get to practice creating classes and methods
-which is an important part of programming in Java.
-
-Please remove this comment when submitting your solution.
-
-*/
-
-
 import java.util.HashMap;
 import java.util.Random;
 
@@ -56,7 +44,7 @@ public class Robot
     {
         this.name = "";
         names.remove(this.name);
-            
+
     }
 
 }
@@ -65,11 +53,6 @@ class RobotTesters
 {
     public static void main(String meow[])
     {
-        /*Robot rob1 = new Robot();
-        rob1.getName();
-        Robot rob2 = new Robot();
-        rob2.getName();
-        */
         Digits aDigits = new Digits();
         String someDigitCluster = aDigits.createClusterOfCharacters(5);
     }
